@@ -1,0 +1,21 @@
+name_y_offset: 850
+surname_y_offset: 950
+affiliation_y_offset: 1100
+
+attendees:
+  gold:
+    color: "#FFA63F"
+  guest:
+    color: "#792FA5"
+  organizer:
+    color: "#F4F4F4"
+  participant:
+    color: "#ED3E3D"
+  platinum:
+    color: "#8DAAD3"
+  poster:
+    color: "#0F4199"
+  silver:
+    color: "#939292"
+  speaker:
+    color: "#006F2F"

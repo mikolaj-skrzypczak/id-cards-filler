@@ -1,0 +1,6 @@
+.idea/
+venv/
+__pycache__/
+ids_filler/config/config.yaml
+ids_filler/resources/attendees/*.csv
+
