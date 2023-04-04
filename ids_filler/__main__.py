@@ -12,7 +12,7 @@ from ids_filler.images.image_modifier import ImageModifier
 config: Config | None = None
 
 
-def main():
+def main() -> None:
     global config
     config = get_config()
 

@@ -13,7 +13,7 @@ class ImageModifier:
             font: FreeTypeFont,
             text_color: str,
             text_start_height: int,
-    ):
+    ) -> None:
         lines = textwrap.wrap(text, width=40)
 
         cls._insert_text(image, lines, font, text_color, text_start_height)
@@ -25,7 +25,7 @@ class ImageModifier:
             font: FreeTypeFont,
             text_color: str,
             text_start_height: int
-    ):
+    ) -> None:
         draw = ImageDraw.Draw(image)
         image_width, image_height = image.size
         y_text = text_start_height
