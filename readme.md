@@ -7,7 +7,7 @@ More information about the conference can be found here: https://ghostday.pl/.
 ## Configuration
 - Rename the [config.yaml.sample](ids_filler/config/config.yaml.sample) file to `config.yaml` and adjust the configuration.
 - Put appropriate template images in the [clear_cards](ids_filler/resources/clear_cards) directory.
-- Put csv files with the list of participants in the [csv_files](ids_filler/resources/attendees) directory. The csv files
+- Put csv files with the list of participants in the [attendees](ids_filler/resources/attendees) directory. The csv files
 should have the following structure: `name surname, affiliation\n`
 For the program to work the names in attendees fields of config.yaml should match the names of the csv and png files.
 
