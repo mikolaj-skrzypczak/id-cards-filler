@@ -12,5 +12,5 @@ class AttendeesLoader:
 
     @classmethod
     def _load_attendees(cls, filepath: str) -> list[dict]:
-        with open(filepath, 'r') as fp:
+        with open(filepath, encoding='utf-8') as fp:
             return [{"name": row[0], "affiliation": ",".join(row[1:])} for row in csv.reader(fp)]
